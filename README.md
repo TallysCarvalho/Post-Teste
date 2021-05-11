@@ -39,16 +39,16 @@ Simple system at read posts
 ## Getting started
  
 * To install
->    Clone a repository
->    Go at repository cloned in terminal
->    Give a yarn
->    After Yarn start   
+*     Clone a repository
+*     Go at repository cloned in terminal
+*     Give a yarn
+*     After Yarn start   
  
 ## what could be implement in a future
 
->    implement a crud to add more posts
->    implement a pagination to show only 10 posts per page
->    implement an input to search for certain posts
+*     implement a crud to add more posts
+*     implement a pagination to show only 10 posts per page
+*     implement an input to search for certain posts
 
 
 ## Authors
