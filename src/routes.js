@@ -5,9 +5,7 @@ import Post from "./pages/Post";
 
 const Routes = () => {
   return (
-      
     <BrowserRouter>
-    
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/posts/:id" component={Post} />

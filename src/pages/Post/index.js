@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { useParams,Link } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import Header from "../../components/Header";
-import './style.css'
+import "./style.css";
 
 function Post() {
   const { id } = useParams();
@@ -22,14 +22,13 @@ function Post() {
   }, []);
 
   return (
-    <div className='container'>
-        <Header/>
-        <div className="card-post">
-      <h1>{post.title}</h1>
-      <span>{post.body}</span>
-      <Link to="/">Return</Link>
+    <div className="container">
+      <Header />
+      <div className="card-post">
+        <h1>{post.title}</h1>
+        <span>{post.body}</span>
+        <Link to="/">Return</Link>
       </div>
-
     </div>
   );
 }

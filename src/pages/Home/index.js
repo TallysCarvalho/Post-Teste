@@ -23,20 +23,20 @@ function Home() {
   }, []);
 
   return (
-    <div >
-      <Header/>
+    <div>
+      <Header />
       {posts.map((post) => {
         return (
-            <div className="container">
-          <Link
-            style={{ textDecoration: "none", color: "black" }}
-            to={`/posts/${post.id}`}
-          >
-            <article key={post.id} className="post">
-              <strong>{post.title}</strong>
-              <span>{post.body}</span>
-            </article>
-          </Link>
+          <div className="container">
+            <Link
+              style={{ textDecoration: "none", color: "black" }}
+              to={`/posts/${post.id}`}
+            >
+              <article key={post.id} className="post">
+                <strong>{post.title}</strong>
+                <span>{post.body}</span>
+              </article>
+            </Link>
           </div>
         );
       })}
