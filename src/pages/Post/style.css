@@ -1,0 +1,19 @@
+.card-post{
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    border: 1px solid #CCC;
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+}
+
+.card-post span{
+margin-bottom: 10px;
+}
+
+.card-post span{
+    font-size: 2rem;
+    color: rgb(77, 77, 77);
+    
+}

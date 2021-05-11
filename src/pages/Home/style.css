@@ -1,23 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Nunito:ital,wght@0,200;0,300;0,600;0,700;0,800;1,200;1,300;1,700&display=swap');
-
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
-}
-
 .container{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 header{
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
@@ -29,10 +19,12 @@ header{
 .post{
     display: flex;
     flex-direction: column;
-    
-    border-bottom: 1px solid black;
-    width: 1000px;
+    border: 1px solid #CCC;
+    box-shadow: 0 0 3px;
+    margin: 10px;
+    width: 1200px;
     height: 100px;
+    padding: 0 50px;
    
 }
 
