@@ -6,14 +6,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
 # React-Post-Teste
 
 <img align="right" width="300" height="300" src="https://octodex.github.com/images/Professortocat_v2.png">
@@ -52,6 +44,11 @@ Simple system at read posts
 >    Give a yarn
 >    After Yarn start   
  
+## what could be implement in a future
+
+>    implement a crud to add more posts
+>    implement a pagination to show only 10 posts per page
+>    implement an input to search for certain posts
 
 
 ## Authors
