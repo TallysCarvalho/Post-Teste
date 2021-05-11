@@ -6,6 +6,7 @@
     width: 800px;
     height: 300px;
     padding: 20px;
+    position: relative;
 }
 
 .card-post span{
@@ -16,4 +17,13 @@ margin-bottom: 10px;
     font-size: 2rem;
     color: rgb(77, 77, 77);
     
+}
+
+.card-post a{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
 }

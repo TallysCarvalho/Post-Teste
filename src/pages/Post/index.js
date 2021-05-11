@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams,Link } from "react-router-dom";
 import Header from "../../components/Header";
 import './style.css'
 
@@ -27,7 +27,9 @@ function Post() {
         <div className="card-post">
       <h1>{post.title}</h1>
       <span>{post.body}</span>
+      <Link to="/">Return</Link>
       </div>
+
     </div>
   );
 }
