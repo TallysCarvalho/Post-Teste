@@ -26,3 +26,17 @@
   font-weight: bold;
   color: black;
 }
+
+
+@media only screen and (max-width: 800px) {
+  .card-post {
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+  }
+}
